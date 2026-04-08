@@ -1,5 +1,5 @@
 export const ptBR = {
-  title: "Dra. Yasmim Almeida 1",
+  title: "Dra. Yasmim Almeida",
   subtitle: "Cirurgiã Dentista | Faça seu agendamento",
   websiteButton: "Em breve meu site oficial",
   whatsappButton: "Agendar avaliação no WhatsApp",

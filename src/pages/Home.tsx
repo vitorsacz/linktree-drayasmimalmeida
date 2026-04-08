@@ -3,7 +3,6 @@ import LinkButton from '../components/LinkButton';
 import { motion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
 import LanguageSwitcher from '../components/LanguageSwitcher';
-import logoYas from './images/logo-yas.png';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -37,7 +36,7 @@ export default function Home() {
         >
           <div className="w-32 h-32 rounded-full border-4 border-white shadow-xl overflow-hidden mb-6 bg-[#8d735c] flex items-center justify-center p-2">
             <img 
-              src={logoYas} 
+              src="/logo-yas.png" 
               alt={t.title} 
               className="w-full h-full object-contain translate-x-1"
             />
