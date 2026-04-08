@@ -6,5 +6,9 @@ export const enUS: Translations = {
   websiteButton: "Visit my official website soon",
   whatsappButton: "Schedule an appointment on WhatsApp",
   whatsappMessage: "Hello Dra. Yasmim, how are you? I would like to schedule an evaluation",
-  footer: "© {year} Dra. Yasmim Almeida"
+  footer: "© {year} Dra. Yasmim Almeida",
+  developedBy: "Developed by Vitor Santos",
+  devEmail: "vitorsacz@gmail.com",
+  devPhone: "+55 11 943411721",
+  devWebsite: "vitorsantos.dev.br"
 };

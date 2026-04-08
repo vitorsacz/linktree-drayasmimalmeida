@@ -3,7 +3,8 @@ import LinkButton from '../components/LinkButton';
 import { motion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
 import LanguageSwitcher from '../components/LanguageSwitcher';
-import logoYas from '../assets/logo-yas.svg';
+import yasModelagem from '../assets/yasModelagem.svg';
+import yasModel from '../assets/yas-model.svg';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -35,11 +36,11 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           className="flex flex-col items-center mb-10 text-center"
         >
-          <div className="w-32 h-32 rounded-full border-4 border-white shadow-xl overflow-hidden mb-6 bg-[#8d735c] flex items-center justify-center p-2">
+          <div className="w-32 h-32 rounded-full border-4 border-white shadow-xl overflow-hidden mb-6 flex items-center justify-center">
             <img 
-              src={logoYas} 
+              src={yasModel} 
               alt={t.title} 
-              className="w-full h-full object-contain translate-x-1"
+              className="w-full h-full object-cover"
             />
           </div>
           <h1 className="text-3xl font-bold mb-2 drop-shadow-sm">{t.title}</h1>
@@ -63,8 +64,15 @@ export default function Home() {
         </motion.div>
 
         {/* Footer */}
-        <footer className="mt-12 text-center text-white/70 text-sm">
+        <footer className="mt-12 text-center text-white/70 text-sm space-y-4">
           <p>{t.footer.replace('{year}', new Date().getFullYear().toString())}</p>
+          
+          <div className="pt-8 border-t border-white/10 flex flex-col items-center space-y-1 opacity-60 hover:opacity-100 transition-opacity">
+            <p className="font-medium">{t.developedBy}</p>
+            <a href={`mailto:${t.devEmail}`} className="hover:underline">{t.devEmail}</a>
+            <a href={`tel:${t.devPhone.replace(/\s/g, '')}`} className="hover:underline">{t.devPhone}</a>
+            <a href={`https://${t.devWebsite}`} target="_blank" rel="noopener noreferrer" className="hover:underline">{t.devWebsite}</a>
+          </div>
         </footer>
       </div>
     </div>
