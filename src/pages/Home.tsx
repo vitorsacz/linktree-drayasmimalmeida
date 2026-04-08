@@ -3,7 +3,7 @@ import LinkButton from '../components/LinkButton';
 import { motion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
 import LanguageSwitcher from '../components/LanguageSwitcher';
-import logoYas from '../assets/logo-yas.png';
+import logoYas from '../assets/logo-yas.svg';
 
 export default function Home() {
   const { t } = useLanguage();
