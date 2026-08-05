@@ -5,7 +5,7 @@ export const ptBR = {
   whatsappButton: "Agende sua consulta aqui.",
   instagramButton: "Acesse meu Instagram aqui",
   linkedinButton: "Acesse meu Linkedin aqui",
-  whatsappMessage: "Olá Dra. Yasmim, tudo bem? gostaria de agendar uma avaliação",
+  whatsappMessage: "Olá tudo bem? Vim pelo Instagram e gostaria de fazer uma agendamento com a Dra. Yasmim Almeida, por favor!",
   footer: "© {year} Dra. Yasmim Almeida",
   developedBy: "Desenvolvido por Vitor Santos",
   devEmail: "vitorsacz@gmail.com",

@@ -9,7 +9,7 @@ export default function Home() {
   const { t } = useLanguage();
   
   const whatsappMessage = encodeURIComponent(t.whatsappMessage);
-  const whatsappUrl = `https://wa.me/5511942150355?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/5511913429696?text=${whatsappMessage}`;
   const instagramUrl = `https://www.instagram.com/dra.yasmimalmeidaa/`;
   const linkedinUrl = `https://www.linkedin.com/in/yasmimcruzalmeida/`;
   
